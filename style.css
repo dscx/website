@@ -1,14 +1,43 @@
 body {
   background-image: url("bg.jpg");
-  background-position: center;
-  background-size: 1920px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 250%;
 }
+.container{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+/*.divBox{
+  position: relative;
+}*/
 
 .face {
-  position: relative;
-  margin-left: 30%;
-  margin-top: 20%;
+  position: absolute;
+  left: 0px;
+  top: 40px;
   height: 140px;
   width: auto;
 
+}
+#mail{
+  position: absolute;
+  left: 135px;
+  top: 47px;
+}
+#git{
+  position: absolute;
+  left: 145px;
+  top: 83px;
+}
+#link{
+  position: absolute;
+  left: 143px;
+  top: 121px;
+}
+#blog{
+  position: absolute;
+  left: 127px;
+  top: 158px;
 }
