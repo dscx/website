@@ -1,0 +1,14 @@
+body {
+  background-image: url("bg.jpg");
+  background-position: center;
+  background-size: 1920px;
+}
+
+.face {
+  position: relative;
+  margin-left: 30%;
+  margin-top: 20%;
+  height: 140px;
+  width: auto;
+
+}
