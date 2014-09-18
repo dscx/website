@@ -9,9 +9,12 @@ body {
   height: 100%;
   width: 100%;
 }
-/*.divBox{
-  position: relative;
-}*/
+
+.name {
+  position: absolute;
+  left: 50px;
+  top: 190px;
+}
 
 .face {
   position: absolute;
