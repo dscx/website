@@ -5,39 +5,153 @@
   <title>danChamberlain()</title>
   <link rel="stylesheet" href="style.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="http://d3js.org/d3.v3.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="devices.min.css" type="text/css">
 </head>
-  <body>
-  <div class="container">
-      <div class="faceBox">
-        <img src="me.png" class="img-circle face">
-      </div>
-      <div>
-        <a id="mail" href="mailto:dnchmbrln@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a>
-        <a id="git" href="http://github.com/dscx"><i class="fa fa-github fa-2x"></i></a>
-        <a id="blog" href="http://dscx.azurewebsites.net"><i class="fa fa-pencil-square-o fa-2x"></i></a>
-        <a id="link" href="http://linkedin.com/in/dschamberlain/"><i class="fa fa-linkedin-square fa-2x"></i></a>
-      </div>
 
-    <div class="name">
-    <h3><p>Dan Chamberlain</p></h3>
-    <h4><p>Software Engineer</p></h4>
+<body>
+  <div>
+    <div class="marvel-device iphone6 black centered">
+      <div class="top-bar"></div>
+      <div class="sleep"></div>
+      <div class="volume"></div>
+      <div class="camera"></div>
+      <div class="sensor"></div>
+      <div class="speaker"></div>
+      <div class="screen">
+        <img src="sbar.png" class="status-bar">
 
-    <h5><p>Recent Apps:</p></h5>
-      <p><a href="https://geo.itunes.apple.com/us/app/hiit-it/id1003895360?mt=8&uo=6" target="itunes_store"> HIIT IT </a></p>
-      <p><a href="https://geo.itunes.apple.com/us/app/wantapp/id991070450?mt=8&uo=6" target="itunes_store"> WantApp </a></p>
-      <p><a href="https://geo.itunes.apple.com/us/app/jottd/id925968560?mt=8&uo=6" target="itunes_store">Jottd</a></p>
-    <b><p>Recent Web Work:</p></b>
-      <p><a href="http://jottd.herokuapp.com/">Jottd</a></p>
-      <p><a href="https://github.com/dscx/applied">iApplied</a></p>
+        <!-- </div> -->
+        <div class="container mycontainer">
+         <!--  <div class="flex-container">
+            <div id="mail" href="mailto:dnchmbrln@gmail.com"><i class="fa fa-envelope-o fa-2x flex-item"></i></div>
+            <div id="git" href="http://github.com/dscx"><i class="fa fa-github fa-2x flex-item"></i></div>
+            <div id="blog" href="http://dscx.azurewebsites.net"><i class="fa fa-pencil-square-o fa-2x flex-item"></i></div>
+            <div id="link" href="http://linkedin.com/in/dschamberlain/"><i class="fa fa-linkedin-square fa-2x flex-item"></i></div>
+          </div> -->
 
-    </div>
-    </div>
+          <!-- ROW 1 -->
+          <div class="row align-items-center">
+          <!-- Face -->
+            <a class="row-item" href="https://geo.itunes.apple.com/us/app/hiit-it/id1003895360?mt=8&uo=6" target="itunes_store">
+              <div>
+                <img class="flex-item" src="me.png" class="face"></img>
+                <p class="flex-subtitle ">Dan</p>
+              </div>
+            </a>
+            <!-- Hiit It -->
+            <a class="row-item" href="https://geo.itunes.apple.com/us/app/hiit-it/id1003895360?mt=8&uo=6" target="itunes_store">
+              <div>
+                <img class="flex-item" src="http://is3.mzstatic.com/image/thumb/Purple5/v4/8a/c7/80/8ac7808e-6732-fefe-e377-927b8659a736/source/175x175bb.jpg"></img>
+                <p class="flex-subtitle ">HIIT IT</p>
+              </div>
+            </a>
+            <!-- USaver -->
+            <a class="row-item" href="https://itunes.apple.com/us/app/university-saver/id1142394297?mt=8" target="itunes_store">
+              <div>
+                <img class="flex-item" src="http://is2.mzstatic.com/image/thumb/Purple71/v4/65/41/cf/6541cfec-3e6b-8954-27d7-99b4aac2e2ff/source/175x175bb.jpg"></img>
+                <p class="flex-subtitle ">USaver</p>
+              </div>
+            </a>
+            <!-- Railway Station -->
+            <a class="row-item" href="https://itunes.apple.com/us/app/railway-station/id1052650206?mt=8" target="itunes_store">
+              <div>
+                <img class="flex-item" src="http://is5.mzstatic.com/image/thumb/Purple62/v4/db/b6/7f/dbb67f17-f995-a415-311e-52c834151153/source/175x175bb.jpg"></img>
+                <p class="flex-subtitle ">Railway</p>
+              </div>
+            </a>
+          </div>
 
+          <!-- ROW 2 -->
+          <div class="row align-items-center">
+            <!-- Search -->
+            <a id="test" class="row-item" href="https://itunes.apple.com/us/app/railway-search/id1027454622?mt=8" target="itunes_store">
+              <div>
+                <img class="flex-item" src="http://is2.mzstatic.com/image/thumb/Purple71/v4/39/bd/f3/39bdf307-9fa6-08d0-0d73-079c5a0f2bd4/source/175x175bb.jpg"></img>
+                <p class="flex-subtitle ">Search</p>
+              </div>
+            </a>
 
-  </body>
+            <!-- Sight Words -->
+            <a class="row-item" href="https://itunes.apple.com/us/app/teachers-aid-sight-words/id1057034822?mt=8" target="itunes_store">
+              <div>
+               <img class="flex-item" src="https://is1-ssl.mzstatic.com/image/thumb/Purple20/v4/46/ad/ea/46adeaae-9948-32a4-0c52-01b46e74e8d0/mzl.lllkvbve.png/150x150bb.jpg"></img>
+               <p class="flex-subtitle ">Words</p>
+             </div>
+           </a>
+
+           <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+           <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+         </div>
+
+         <!-- ROW 3 -->
+         <div class="row align-items-center">
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+        </div>
+
+        <!-- ROW 4 -->
+        <div class="row align-items-center">
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+        </div>
+
+        <!-- ROW 5 -->
+        <div class="row align-items-center">
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+        </div>
+
+        <!-- ROW 6 -->
+        <div class="row align-items-center">
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+        </div>
+
+         <!-- ROW 6 -->
+        <div class="row align-items-center">
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+          <a class="row-item"><img class="flex-item" src="placeholder.png"></img></a>
+        </div>
+
+        <div class="row align-items-center">
+         <img src="dock.png" class="dock">
+       </div>
+
+     </div>
+
+   </div>
+   <div class="home"></div>
+   <div class="bottom-bar"></div>
+ </div>
+</div>
+<script type="text/javascript">
+  $("#test").click(function() {
+    alert( "Handler for .click() called." );
+    console.log("clicked", this)
+  });
+
+  $("a").click(function() {
+    $("#test").click();
+  });
+</script>
+
+</body>
 </html>
 <head></head>
 
