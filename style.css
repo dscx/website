@@ -54,7 +54,7 @@ p {
 .dock {
     width: 375px;
     height: 96px !important;
-    margin-top: 40px !important;
+    margin-top: 5px !important;
     background-color: #3C3C3C;
 }
 
